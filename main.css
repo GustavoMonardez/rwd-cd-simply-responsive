@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+.wrapper{
+    width:970px;
+    margin:auto;
+}
+
+.media{
+    padding:15px;
+    width:645px;
+    margin:auto;
+}
+
+.media h1{
+    background-color: gray;
+    padding:10px;
+    font-size: 16px;
+    margin-bottom:10px;
+    border:1px solid silver;
+}
+
+.media p{
+    background-color: lightgray;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid silver;
+}
+
+.media .yellow{
+    padding:10px;
+    background-color: khaki;
+}
+
+.phone, .tablet{display: none;}
+
+
+@media only screen and (max-width : 480px){
+    .desktop, .tablet{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+}
+
+@media only screen and (min-width : 481px){
+    .desktop, .phone{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+}
+
+@media only screen and (min-width : 1024px){
+    .phone, .tablet{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
+
