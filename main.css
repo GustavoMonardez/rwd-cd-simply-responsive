@@ -10,13 +10,13 @@
     margin:auto;
 }
 
-.media{
+.media-desktop{
     padding:15px;
     width:645px;
     margin:auto;
 }
 
-.media h1{
+h1{
     background-color: gray;
     padding:10px;
     font-size: 16px;
@@ -24,14 +24,14 @@
     border:1px solid silver;
 }
 
-.media p{
+p{
     background-color: lightgray;
     padding:10px;
     margin-bottom:10px;
     border:1px solid silver;
 }
 
-.media .yellow{
+.yellow{
     padding:10px;
     background-color: khaki;
 }
@@ -46,6 +46,11 @@
     .phone{
         display: block;
     }
+    .media-phone{
+        padding:15px;
+        width:265px;
+        margin:auto;
+    }
 }
 
 @media only screen and (min-width : 481px){
@@ -55,6 +60,11 @@
     .tablet{
         display: block;
     }
+    .media-tablet{
+        padding:15px;
+        width:440px;
+        margin:auto;
+    }
 }
 
 @media only screen and (min-width : 1024px){
@@ -63,6 +73,11 @@
     }
     .desktop{
         display: block;
+    }
+    .media-desktop{
+        padding:15px;
+        width:645px;
+        margin:auto;
     }
 }
 
